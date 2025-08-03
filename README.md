@@ -28,14 +28,11 @@ Jupyter Notebook
 import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
-
-# Load dataset
+## load data set
+## 📌 Sample Code Snippet
+```python
 df = pd.read_csv('restaurant_data.csv')
-
-# Visualize online order distribution
-sns.countplot(x='Online_order', data=df)
-plt.title('Online Order Availability')
-plt.show()
+ 
 
 ## Data Cleaning & Preprocessing
 
@@ -43,14 +40,4 @@ plt.show()
 
 -Data Visualization
 
--Business & Customer Insights
-
-For queries or collaboration:
-
-- **Name**: Laiba Aslam  
-- **LinkedIn**: [www.linkedin.com/in/laiba-aslam-a2834227b](https://www.linkedin.com/in/laiba-aslam-a2834227b)  
-- **Email**: laibaaslam383@gmail.com  
-
----
-
-⭐ **Feel free to star this repo if you find it useful!**
+- 
