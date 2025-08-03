@@ -22,11 +22,21 @@ Seaborn
 Jupyter Notebook
 ## Project Highlights:
 # import libries
+ ## 📌 Sample Code Snippet
+
+```python
 import pandas as pd
-import numpy as np 
-import matplotlib.pyplot as plt #visualizing data
-%matplotlib inline
 import seaborn as sns
+import matplotlib.pyplot as plt
+
+# Load dataset
+df = pd.read_csv('restaurant_data.csv')
+
+# Visualize online order distribution
+sns.countplot(x='Online_order', data=df)
+plt.title('Online Order Availability')
+plt.show()
+
 ## Data Cleaning & Preprocessing
 
 -Exploratory Data Analysis (EDA)
