@@ -12,6 +12,7 @@ Does online delivery affect customer ratings?
 
 What types of restaurants generally receive higher ratings?
 
+
 ## Technologies Used
 Python
 Pandas
@@ -20,6 +21,12 @@ Matplotlib
 Seaborn
 Jupyter Notebook
 ## Project Highlights:
+# import libries
+import pandas as pd
+import numpy as np 
+import matplotlib.pyplot as plt #visualizing data
+%matplotlib inline
+import seaborn as sns
 ## Data Cleaning & Preprocessing
 
 -Exploratory Data Analysis (EDA)
