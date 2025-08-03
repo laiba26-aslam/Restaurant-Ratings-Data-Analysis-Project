@@ -22,22 +22,63 @@ Seaborn
 Jupyter Notebook
 ## Project Highlights:
 # import libries
- ## 📌 Sample Code Snippet
-
 ```python
 import pandas as pd
+import numpy as np 
+import matplotlib.pyplot as plt #visualizing data
+%matplotlib inline
 import seaborn as sns
-import matplotlib.pyplot as plt
-## load data set
-## 📌 Sample Code Snippet
+```
+
+ # import data set
 ```python
-df = pd.read_csv('restaurant_data.csv')
+import pandas
+dataframe = pandas.read_csv('blinkit_data.csv')
+dataframe
+```
+
+# check top 10 records
+
+
+
+# check tail 10 records
+
+
+
+# info columns
+
+
+# data cleaning
+
+
+
  
 
-## Data Cleaning & Preprocessing
+ 
+ # Bussines Requirments
+ # KPI Requirment
 
--Exploratory Data Analysis (EDA)
 
--Data Visualization
 
+ # Charts Requirment
+
+
+ # total sales by Fat Content
+
+
+
+
+
+ # Total sales by Item type
+
+
+ # Total Sales by Outlet Establishment
+
+
+
+ # Total Sales by Outlet Size
+
+
+ # Sales by Outlet Location
+ 
 - 
