@@ -90,7 +90,7 @@ print(f"Avg_rating  :${Avg_rating:,.0f}")
 ```
 
 
-# # Charts Requirment
+#  **Charts Requirment**
   # total sales by Fat Content
 ```python
 sales_by_fat =dataframe.groupby('Item Fat Content')['Sales'].sum()
